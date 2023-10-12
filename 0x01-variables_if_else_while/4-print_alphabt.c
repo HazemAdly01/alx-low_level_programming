@@ -11,14 +11,20 @@
 int main(void)
 {
 char ch = 'a';
-while (ch <= 'z'
+
+while (ch <= 'z')
 {
-if (ch == 'a' || ch == 'q')
+if (ch == 'e' || ch == 'q')
+{
 ch++;
-putchar(ch);
-ch++
+continue;
 }
 
-putchar('\n')
+putchar(ch);
+ch++;
+}
+
+putchar('\n');
+
 return (0);
 }
