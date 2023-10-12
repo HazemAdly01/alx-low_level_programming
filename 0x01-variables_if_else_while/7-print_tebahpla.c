@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * main - entry point
@@ -14,7 +14,7 @@ char ch = 'z';
 
 while (ch >= 'a')
 {
-putchar(ch)
+putchar(ch);
 ch--;
 }
 putchar('\n');
