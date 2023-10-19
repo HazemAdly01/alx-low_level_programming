@@ -13,6 +13,7 @@
 char *_stract(char *dest, char *src)
 {
 int c, c2;
+
 c = 0;
 /* find the sixe of dast arrays */
 while (dest[c])
